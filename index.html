@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>导航页</title>
+  <link rel="stylesheet" href="resources/bootstrap.css">
+  <link rel="stylesheet" href="导航.css">
+  <!-- <base target="_blank" /> -->
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row ">
+      <div class="col-lg-2 	d-none d-md-block" id="list-example ">
+        <ul class="list-group p-0 sticky-top  imgheight">
+          <li class="list-group-item  mt-4  " aria-current="true">
+            <img src="imgs/学习.svg" alt="" style="height: 25px;"><a href="#a" class="stretched-link">学习教程</a></li>
+          <li class="list-group-item ">
+            <img src="imgs/社区.svg" alt="" style="height: 25px;"><a href="#b" class="stretched-link">开发社区</a></li>
+          <li class="list-group-item">
+            <img src="imgs/素材库.svg" alt="" style="height: 20px;"><a href="#c" class="stretched-link">素材库</a></li>
+          <li class="list-group-item">
+            <img src="imgs/WEB前端.svg" alt="" style="height: 20px;"><a href="#d" class="stretched-link">前端门户</a></li>
+          <li class="list-group-item">
+            <img src="imgs/工具.svg" alt="" style="height: 25px;"><a href="#e" class="stretched-link">工具书签</a></li>
+          <li class="list-group-item">
+            <img src="imgs/程序员.svg" alt="" style="height: 30px;"><a href="#f" class="stretched-link">前端大牛</a></li>
+          <li class="list-group-item">
+            <img src="imgs/vue.svg" alt="" style="height: 25px;"><a href="#g" class="stretched-link">框架库类</a></li>
+          <li class="list-group-item">
+            <img src="imgs/个人.svg" alt="" style="height: 25px;"><a href="#h" class="stretched-link">个人网站</a></li>
+          <li class="list-group-item">
+            <img src="imgs/书籍.svg" alt="" style="height: 25px;"><a href="#i" class="stretched-link">书籍</a></li>
+        </ul>
+      </div>
+
+      <!-- 响应式，小屏幕设备显示 -->
+      <div class="fixed-top d-none d-block d-md-none">
+        <div class="collapse" id="navbarToggleExternalContent">
+          <div class="bg-dark p-2 pb-0">
+            <h5 class="text-white h4 mt-2 ml-4">前端导航站点</h5>
+            <span class="text-muted">
+              <ul class="list-group p-0 sticky-top imgheight">
+                <li class="list-group-item  mt-2" aria-current="true">
+                  <img src="imgs/学习.svg" alt="" style="height: 20px;"><a href="#a" class="stretched-link">学习教程</a></li>
+                <li class="list-group-item ">
+                  <img src="imgs/社区.svg" alt="" style="height: 20px;"><a href="#b" class="stretched-link">开发社区</a></li>
+                <li class="list-group-item">
+                  <img src="imgs/素材库.svg" alt="" style="height:15px;"><a href="#c" class="stretched-link">素材库</a></li>
+                <li class="list-group-item">
+                  <img src="imgs/WEB前端.svg" alt="" style="height: 20px;"><a href="#d" class="stretched-link">前端门户</a>
+                </li>
+                <li class="list-group-item">
+                  <img src="imgs/工具.svg" alt="" style="height: 20px;"> <a href="#e" class="stretched-link">工具书签</a></li>
+                <li class="list-group-item">
+                  <img src="imgs/程序员.svg" alt="" style="height: 25px;"> <a href="#f" class="stretched-link">前端大牛</a>
+                </li>
+                <li class="list-group-item">
+                  <img src="imgs/vue.svg" alt="" style="height: 20px;"><a href="#g" class="stretched-link">框架库类</a>
+                </li>
+                <li class="list-group-item">
+                  <img src="imgs/个人.svg" alt="" style="height: 20px;"> <a href="#h" class="stretched-link">个人网站</a></li>
+                <li class="list-group-item">
+                  <img src="imgs/书籍.svg" alt="" style="height: 20px;"> <a href="#i" class="stretched-link">书籍</a></li>
+
+              </ul>
+            </span>
+          </div>
+        </div>
+        <nav class="navbar navbar-dark bg-dark mr-sm-2  mb-5 rightdisplay">
+          <button class="navbar-toggler " type="button" data-toggle="collapse"
+            data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </nav>
+
+      </div>
+
+      <!-- main -->
+      <div class="col-lg-10">
+        <!-- As a heading -->
+        <div class="w-100 pb-2 p-2 headingtop">
+          <nav class="navbar navbar-light bg-light justify-content-center">
+            <span class="navbar-brand h1 ">前端导航站点</span>
+          </nav>
+        </div>
+        <!--first box -->
+        <div class="row border rounded w-100 m-0 bg-white">
+          <div class="row w-100 m-3 imgheight" id="a">
+            <img src="imgs/学习.svg" alt="">
+            <a href="#" class="text-reset text-decoration-none">
+              <h3 class="w-100 ">学习教程
+              </h3>
+            </a>
+          </div>
+          <hr class="w-100">
+          <div class="p-2 col-lg-3 col-md-4  col-sm-6">
+            <div class="card w-100 hshadow" style="width: 18rem;">
+              <div class="row pl-4 border-0 ">
+                <img src="imgs/docimg/菜鸟教程.svg" class="" alt="...">
+                <a href="https://www.runoob.com/" target="_blank" class="text-reset stretched-link ml-3">
+                  <h5 class="card-title align-middle mp-0">菜鸟教程</h5>
+                </a>
+              </div>
+              <div class="card-body pt-2">
+                <p class="card-text">菜鸟教程提供了基础编程技术教程。包括了HTML、CSS、Javascript、PHP、C、Python等各种基础编程教程。</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-2 col-lg-3 col-md-4 col-sm-6">
+            <div class="card w-100 hshadow" style="width: 18rem;">
+              <div class="row pl-4 border-0">
+                <img src="imgs/docimg/w3c.svg" class="" alt="...">
+                <a href="https://www.w3school.com.cn/" target="_blank" class="text-reset stretched-link  ml-3">
+                  <h5 class="card-title align-middle">W3School</h5>
+                </a>
+              </div>
+              <div class="card-body pt-2">
+                <p class="card-text">W3School是因特网上最大的 WEB 开发者资源,W3School 是 W3C 中国社区成员，致力于推广 W3C 标准技术</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-2 col-lg-3 col-md-4 col-sm-6">
+            <div class="card w-100 hshadow" style="width: 18rem;">
+              <div class="row pl-4 border-0">
+                <img src="imgs/docimg/MDN.png" class="" alt="...">
+                <a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript" target="_blank"
+                  class="text-reset stretched-link  ml-3">
+                  <h5 class="card-title align-middle" style="display: inline-block;">MDN</h5>
+                </a>
+              </div>
+              <div class="card-body pt-2">
+                <p class="card-text">MDN Web Docs 是一个提供 Web 技术和促进 Web 技术软件的不断发展的学习平台，为开发人员提供在开放的Web
+                  网络上轻松构建项目所必需的信息。</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-2 col-lg-3 col-md-4 col-sm-6">
+            <div class="card w-100 hshadow" style="width: 18rem;">
+              <div class="row pl-4 border-0">
+                <img src="imgs/docimg/bilibili-fill.svg" class="" alt="...">
+                <a href="https://www.bilibili.com/" target="_blank" class="text-reset stretched-link  ml-3">
+                  <h5 class="card-title align-middle" style="display: inline-block;">B站</h5>
+                </a>
+              </div>
+              <div class="card-body pt-2">
+                <p class="card-text">你能找到所有教程的视频资源</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-2 col-lg-3 col-md-4 col-sm-6">
+            <div class="card w-100 hshadow" style="width: 18rem;">
+              <div class="row pl-4 border-0">
+                <img src="imgs/docimg/我要自学网.png" class="" alt="...">
+                <a href="https://www.51zxw.net/" target="_blank" class="text-reset stretched-link  ml-3">
+                  <h5 class="card-title align-middle" style="display: inline-block;">我要自学网</h5>
+                </a>
+              </div>
+              <div class="card-body pt-2">
+                <p class="card-text">带我入门学习编程的网站，资源丰富</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-2 col-lg-3 col-md-4 col-sm-6">
+            <div class="card w-100 hshadow" style="width: 18rem;">
+              <div class="row pl-4 border-0">
+                <img src="imgs/docimg/大学moc.png" class="" alt="...">
+                <a href="https://www.icourse163.org/" target="_blank" class="text-reset stretched-link  ml-3">
+                  <h5 class="card-title align-middle" style="display: inline-block;">中国大学MOOC</h5>
+                </a>
+              </div>
+              <div class="card-body pt-2">
+                <p class="card-text">丰富的教育部国家精品开放课程
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- second box -->
+        <div class="row border  rounded mt-2 m-0 bg-white" id="b">
+          <div class="row w-100 ml-5 mt-3 imgheight">
+            <img src="imgs/社区.svg" alt="">
+            <a href="#" class="text-reset text-decoration-none">
+              <h3 class="w-100 ">开发社区
+              </h3>
+            </a>
+          </div>
+          <hr class="w-100 ">
+          <div class="p-2 pt-0 col-lg-3">
+            <div class="card w-100 hshadow" style="width: 18rem;">
+              <div class="row pl-4 border-0">
+                <img src="imgs/docimg/github.svg" class="" alt="...">
+                <a href="https://github.com/" target="_blank" class="text-reset stretched-link  ml-3">
+                  <h5 class="card-title align-middle" style="display: inline-block;">GitHub</h5>
+                </a>
+              </div>
+              <div class="card-body pt-2">
+                <p class="card-text">全球最大的程序员社交网站，上面储存着无数丰富的开源代码资源。程序员进阶之路一定能在这个社区找得他的身影</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-2 col-lg-3">
+            <div class="card w-100 hshadow" style="width: 18rem;">
+              <div class="row pl-4 border-0">
+                <img src="imgs/docimg/gitee.svg" class="" alt="...">
+                <a href="https://gitee.com/" target="_blank" class="text-reset stretched-link  ml-3">
+                  <h5 class="card-title align-middle" style="display: inline-block;">gitee
+                  </h5>
+                </a>
+              </div>
+              <div class="card-body pt-2">
+                <p class="card-text">Gitee 是开源中国推出的基于 Git 的代码托管服务，本土最大开源技术社区，是中国的GitHub，</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-2 col-lg-3">
+            <div class="card w-100 hshadow" style="width: 18rem;">
+              <div class="row pl-4 border-0">
+                <img src="imgs/docimg/gitlab.svg" class="" alt="...">
+                <a href="http://gitlab.com" target="_blank" class="text-reset stretched-link  ml-3">
+                  <h5 class="card-title align-middle" style="display: inline-block;">GitLab</h5>
+                </a>
+              </div>
+              <div class="card-body pt-2">
+                <p class="card-text">GitLab 是一个用于仓库管理系统的开源项目，使用Git作为代码管理工具，并在此基础上搭建起来的web服务。</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="p-2 col-lg-3">
+            <div class="card w-100 hshadow" style="width: 18rem;">
+              <div class="row pl-4 border-0">
+                <img src="imgs/vue.svg" class="" alt="...">
+                <a href="#" class="text-reset stretched-link  ml-3">
+                  <h5 class="card-title align-middle" style="display: inline-block;">Card title</h5>
+                </a>
+              </div>
+              <div class="card-body pt-2">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's
+                  content.</p>
+              </div>
+            </div>
+          </div> -->
+
+          <!-- <div class="p-2 col-lg-3">
+            <div class="card w-100 hshadow" style="width: 18rem;">
+              <div class="row pl-4 border-0">
+                <img src="imgs/vue.svg" class="" alt="...">
+                <a href="#" class="text-reset stretched-link  ml-3">
+                  <h5 class="card-title align-middle" style="display: inline-block;">Card title</h5>
+                </a>
+              </div>
+              <div class="card-body pt-2">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's
+                  content.</p>
+              </div>
+            </div>
+          </div> -->
+        </div>
+        <!-- 3 box -->
+        <div class="row border  rounded mt-2 m-0 bg-white" id="c">
+          <div class="row w-100 ml-5 mt-3 imgheight">
+            <img src="imgs/素材库.svg" alt="">
+            <a href="#" class="text-reset text-decoration-none">
+              <h3 class="w-100 ">素材库
+              </h3>
+            </a>
+          </div>
+          <hr class="w-100 ">
+          <div class="p-2 pt-0 col-lg-3">
+            <div class="card w-100 hshadow" style="width: 18rem;">
+              <div class="row pl-4 border-0">
+                <img src="imgs/docimg/icfont.png" class="" alt="...">
+                <a href="https://www.iconfont.cn/" target="_blank" class="text-reset stretched-link  ml-3">
+                  <h5 class="card-title align-middle" style="display: inline-block;">iconfont</h5>
+                </a>
+              </div>
+              <div class="card-body pt-2">
+                <p class="card-text">阿里巴巴开发的国内功能很强大且图标内容很丰富的矢量图标库。</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-2 col-lg-3">
+            <div class="card w-100 hshadow" style="width: 18rem;">
+              <div class="row pl-4 border-0">
+                <img src="imgs/docimg/Font Awesome.svg" class="" alt="...">
+                <a href="http://fontawesome.com.cn" target="_blank" class="text-reset stretched-link  ml-3">
+                  <h5 class="card-title align-middle" style="display: inline-block;">Font Awesome</h5>
+                </a>
+              </div>
+              <div class="card-body pt-2">
+                <p class="card-text">一套绝佳的图标字体库和CSS框架</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="p-2 col-lg-3">
+            <div class="card w-100 hshadow" style="width: 18rem;">
+              <div class="row pl-4 border-0">
+                <img src="imgs/vue.svg" class="" alt="...">
+                <a href="#" class="text-reset stretched-link  ml-3">
+                  <h5 class="card-title align-middle" style="display: inline-block;">Card title</h5>
+                </a>
+              </div>
+              <div class="card-body pt-2">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's
+                  content.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-2 col-lg-3">
+            <div class="card w-100 hshadow" style="width: 18rem;">
+              <div class="row pl-4 border-0">
+                <img src="imgs/vue.svg" class="" alt="...">
+                <a href="#" class="text-reset stretched-link  ml-3">
+                  <h5 class="card-title align-middle" style="display: inline-block;">Card title</h5>
+                </a>
+              </div>
+              <div class="card-body pt-2">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's
+                  content.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-2 col-lg-3">
+            <div class="card w-100 hshadow" style="width: 18rem;">
+              <div class="row pl-4 border-0">
+                <img src="imgs/vue.svg" class="" alt="...">
+                <a href="#" class="text-reset stretched-link  ml-3">
+                  <h5 class="card-title align-middle" style="display: inline-block;">Card title</h5>
+                </a>
+              </div>
+              <div class="card-body pt-2">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's
+                  content.</p>
+              </div>
+            </div>
+          </div> -->
+        </div>
+        <!-- 4 box -->
+        <div class="row border  rounded mt-2 m-0 bg-white" id="d">
+          <div class="row w-100 ml-5 mt-3 imgheight">
+            <img src="imgs/WEB前端.svg" alt="">
+            <a href="#" class="text-reset text-decoration-none">
+              <h3 class="w-100 ">前端门户
+              </h3>
+            </a>
+          </div>
+          <hr class="w-100 ">
+          <div class="p-2 pt-0 col-lg-3">
+            <div class="card w-100 hshadow" style="width: 18rem;">
+              <div class="row pl-4 border-0">
+                <img src="imgs/docimg/印记.png" class="" alt="...">
+                <a href="https://docschina.org/" target="_blank" class="text-reset stretched-link  ml-3">
+                  <h5 class="card-title align-middle" style="display: inline-block;">印记中文</h5>
+                </a>
+              </div>
+              <div class="card-body pt-2">
+                <p class="card-text">权威的技术叙述文档</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-2 col-lg-3">
+            <div class="card w-100 hshadow" style="width: 18rem;">
+              <div class="row pl-4 border-0">
+                <img src="imgs/docimg/美团.png" class="" alt="...">
+                <a href="https://tech.meituan.com/" target="_blank" class="text-reset stretched-link  ml-3">
+                  <h5 class="card-title align-middle" style="display: inline-block;">美团技术团队</h5>
+                </a>
+              </div>
+              <div class="card-body pt-2">
+                <p class="card-text">美团技术团队的博客。</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="p-2 col-lg-3">
+            <div class="card w-100 hshadow" style="width: 18rem;">
+              <div class="row pl-4 border-0">
+                <img src="imgs/vue.svg" class="" alt="...">
+                <a href="#" class="text-reset stretched-link  ml-3">
+                  <h5 class="card-title align-middle" style="display: inline-block;">Card title</h5>
+                </a>
+              </div>
+              <div class="card-body pt-2">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's
+                  content.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-2 col-lg-3">
+            <div class="card w-100 hshadow" style="width: 18rem;">
+              <div class="row pl-4 border-0">
+                <img src="imgs/vue.svg" class="" alt="...">
+                <a href="#" class="text-reset stretched-link  ml-3">
+                  <h5 class="card-title align-middle" style="display: inline-block;">Card title</h5>
+                </a>
+              </div>
+              <div class="card-body pt-2">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's
+                  content.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-2 col-lg-3">
+            <div class="card w-100 hshadow" style="width: 18rem;">
+              <div class="row pl-4 border-0">
+                <img src="imgs/vue.svg" class="" alt="...">
+                <a href="#" class="text-reset stretched-link  ml-3">
+                  <h5 class="card-title align-middle" style="display: inline-block;">Card title</h5>
+                </a>
+              </div>
+              <div class="card-body pt-2">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's
+                  content.</p>
+              </div>
+            </div>
+          </div> -->
+        </div>
+        <!-- 5 box -->
+        <div class="row border  rounded mt-2 m-0 bg-white" id="e">
+          <div class="row w-100 ml-5 mt-3 imgheight">
+            <img src="imgs/工具.svg" alt="">
+            <a href="#" class="text-reset text-decoration-none">
+              <h3 class="w-100 ">工具书签
+              </h3>
+            </a>
+          </div>
+          <hr class="w-100 ">
+          <div class="p-2 pt-0 col-lg-3">
+            <div class="card w-100 hshadow" style="width: 18rem;">
+              <div class="row pl-4 border-0">
+                <img src="imgs/docimg/xmind.svg" class="" alt="...">
+                <a href="http://www.mindline.cn/webapp" target="_blank" class="text-reset stretched-link  ml-3">
+                  <h5 class="card-title align-middle" style="display: inline-block;">XMind思维导图</h5>
+                </a>
+              </div>
+              <div class="card-body pt-2">
+                <p class="card-text">使用率最高的一款思维导图</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="p-2 col-lg-3">
+            <div class="card w-100 hshadow" style="width: 18rem;">
+              <div class="row pl-4 border-0">
+                <img src="imgs/vue.svg" class="" alt="...">
+                <a href="#" class="text-reset stretched-link  ml-3">
+                  <h5 class="card-title align-middle" style="display: inline-block;">iconfont</h5>
+                </a>
+              </div>
+              <div class="card-body pt-2">
+                <p class="card-text">阿里的图标内容很丰富的矢量图标库</p>
+              </div>
+            </div>
+          </div> -->
+
+          <!-- <div class="p-2 col-lg-3">
+            <div class="card w-100 hshadow" style="width: 18rem;">
+              <div class="row pl-4 border-0">
+                <img src="imgs/vue.svg" class="" alt="...">
+                <a href="#" class="text-reset stretched-link  ml-3">
+                  <h5 class="card-title align-middle" style="display: inline-block;">Card title</h5>
+                </a>
+              </div>
+              <div class="card-body pt-2">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's
+                  content.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-2 col-lg-3">
+            <div class="card w-100 hshadow" style="width: 18rem;">
+              <div class="row pl-4 border-0">
+                <img src="imgs/vue.svg" class="" alt="...">
+                <a href="#" class="text-reset stretched-link  ml-3">
+                  <h5 class="card-title align-middle" style="display: inline-block;">Card title</h5>
+                </a>
+              </div>
+              <div class="card-body pt-2">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's
+                  content.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-2 col-lg-3">
+            <div class="card w-100 hshadow" style="width: 18rem;">
+              <div class="row pl-4 border-0">
+                <img src="imgs/vue.svg" class="" alt="...">
+                <a href="#" class="text-reset stretched-link  ml-3">
+                  <h5 class="card-title align-middle" style="display: inline-block;">Card title</h5>
+                </a>
+              </div>
+              <div class="card-body pt-2">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's
+                  content.</p>
+              </div>
+            </div>
+          </div> -->
+        </div>
+        <!-- 6 box -->
+        <div class="row border  rounded mt-2 m-0 bg-white" id="f">
+          <div class="row w-100 ml-5 mt-3 imgheight">
+            <img src="imgs/程序员.svg" alt="">
+            <a href="#" class="text-reset text-decoration-none">
+              <h3 class="w-100 ">前端大牛
+              </h3>
+            </a>
+          </div>
+          <hr class="w-100 ">
+          <div class="p-2 pt-0 col-lg-3">
+            <div class="card w-100 hshadow" style="width: 18rem;">
+              <div class="row pl-4 border-0">
+                <img src="imgs/docimg/大牛.svg" class="" alt="...">
+                <a href="https://ruanyifeng.com/blog/" target="_blank" class="text-reset stretched-link  ml-3">
+                  <h5 class="card-title align-middle" style="display: inline-block;">阮一峰的网络日志</h5>
+                </a>
+              </div>
+              <div class="card-body pt-2">
+                <p class="card-text">上海财经大学世界经济博士研究生，对技术和所有领域未知的事物充满好奇的一位百科全书。。</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-2 col-lg-3">
+            <div class="card w-100 hshadow" style="width: 18rem;">
+              <div class="row pl-4 border-0">
+                <img src="imgs/docimg/廖雪峰.svg" class="" alt="...">
+                <a href="https://www.liaoxuefeng.com/" target="_blank" class="text-reset stretched-link  ml-3">
+                  <h5 class="card-title align-middle" style="display: inline-block;">廖雪峰的官方网站</h5>
+                </a>
+              </div>
+              <div class="card-body pt-2">
+                <p class="card-text">廖雪峰有十年软件开发经验，研究互联网产品和技术,提供原创中文精品教程</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="p-2 col-lg-3">
+            <div class="card w-100 hshadow" style="width: 18rem;">
+              <div class="row pl-4 border-0">
+                <img src="imgs/vue.svg" class="" alt="...">
+                <a href="#" class="text-reset stretched-link  ml-3">
+                  <h5 class="card-title align-middle" style="display: inline-block;">Card title</h5>
+                </a>
+              </div>
+              <div class="card-body pt-2">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's
+                  content.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-2 col-lg-3">
+            <div class="card w-100 hshadow" style="width: 18rem;">
+              <div class="row pl-4 border-0">
+                <img src="imgs/vue.svg" class="" alt="...">
+                <a href="#" class="text-reset stretched-link  ml-3">
+                  <h5 class="card-title align-middle" style="display: inline-block;">Card title</h5>
+                </a>
+              </div>
+              <div class="card-body pt-2">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's
+                  content.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-2 col-lg-3">
+            <div class="card w-100 hshadow" style="width: 18rem;">
+              <div class="row pl-4 border-0">
+                <img src="imgs/vue.svg" class="" alt="...">
+                <a href="#" class="text-reset stretched-link  ml-3">
+                  <h5 class="card-title align-middle" style="display: inline-block;">Card title</h5>
+                </a>
+              </div>
+              <div class="card-body pt-2">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's
+                  content.</p>
+              </div>
+            </div>
+          </div> -->
+        </div>
+        <!-- 7 box -->
+        <div class="row border  rounded mt-2 m-0 bg-white" id="g">
+          <div class="row w-100 ml-5 mt-3 imgheight">
+            <img src="imgs/框架管理1.svg" alt="">
+            <a href="#" class="text-reset text-decoration-none">
+              <h3 class="w-100 "> 框架库类
+              </h3>
+            </a>
+          </div>
+          <hr class="w-100 ">
+          <div class="p-2 pt-0 col-lg-3">
+            <div class="card w-100 hshadow" style="width: 18rem;">
+              <div class="row pl-4 border-0">
+                <img src="imgs/vue.svg" class="" alt="...">
+                <a href="https://cn.vuejs.org/" target="_blank" class="text-reset stretched-link  ml-3">
+                  <h5 class="card-title align-middle" style="display: inline-block;">Vue</h5>
+                </a>
+              </div>
+              <div class="card-body pt-2">
+                <p class="card-text">一套用于构建用户界面的渐进式框架。</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-2 col-lg-3">
+            <div class="card w-100 hshadow" style="width: 18rem;">
+              <div class="row pl-4 border-0">
+                <img src="imgs/docimg/jquery.svg" class="" alt="...">
+                <a href="https://jquery.cuishifeng.cn/index.html" target="_blank"
+                  class="text-reset stretched-link  ml-3">
+                  <h5 class="card-title align-middle" style="display: inline-block;">jQuery</h5>
+                </a>
+              </div>
+              <div class="card-body pt-2">
+                <p class="card-text">jQuery 是一个高效、精简并且功能丰富的 JavaScript 工具库。</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-2 col-lg-3">
+            <div class="card w-100 hshadow" style="width: 18rem;">
+              <div class="row pl-4 border-0">
+                <img src="imgs/docimg/boostrap.svg" class="" alt="...">
+                <a href="https://www.bootcss.com/" target="_blank" class="text-reset stretched-link  ml-3">
+                  <h5 class="card-title align-middle" style="display: inline-block;">Bootstrap</h5>
+                </a>
+              </div>
+              <div class="card-body pt-2">
+                <p class="card-text">Bootstrap是一组用于网站和网络应用程序开发的开源前端UI框架</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-2 col-lg-3">
+            <div class="card w-100 hshadow" style="width: 18rem;">
+              <div class="row pl-4 border-0">
+                <img src="imgs/docimg/element.png" class="" alt="...">
+                <a href="https://element.eleme.cn/#/zh-CN" target="_blank" class="text-reset stretched-link  ml-3">
+                  <h5 class="card-title align-middle" style="display: inline-block;">Element UI</h5>
+                </a>
+              </div>
+              <div class="card-body pt-2">
+                <p class="card-text">一款基于vue设计的UI框架</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-2 col-lg-3">
+            <div class="card w-100 hshadow" style="width: 18rem;">
+              <div class="row pl-4 border-0">
+                <img src="imgs/docimg/rect.svg" class="" alt="...">
+                <a href="https://react.docschina.org/" target="_blank" class="text-reset stretched-link  ml-3">
+                  <h5 class="card-title align-middle" style="display: inline-block;">React</h5>
+                </a>
+              </div>
+              <div class="card-body pt-2">
+                <p class="card-text">和vue一样是基于js的开发框架，全世界最火的三大框架之一</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-2 col-lg-3">
+            <div class="card w-100 hshadow" style="width: 18rem;">
+              <div class="row pl-4 border-0">
+                <img src="imgs/docimg/less.svg" class="" alt="...">
+                <a href="http://lesscss.cn/" target="_blank" class="text-reset stretched-link  ml-3">
+                  <h5 class="card-title align-middle" style="display: inline-block;">Less</h5>
+                </a>
+              </div>
+              <div class="card-body pt-2">
+                <p class="card-text">一门向后兼容的 CSS 扩展语言,包含了 Less 语言以及利用 JavaScript 开发的用于将 Less 样式转换成 CSS 样式的 Less.js 工具。
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 8 box -->
+        <div class="row border  rounded mt-2 m-0 bg-white" id="h">
+          <div class="row w-100 ml-5 mt-3 imgheight">
+            <img src="imgs/个人.svg" alt="">
+            <a href="#" class="text-reset text-decoration-none">
+              <h3 class="w-100 ">个人网站导航
+              </h3>
+            </a>
+          </div>
+          <hr class="w-100 ">
+          <div class="p-2 pt-0 col-lg-3">
+            <div class="card w-100 hshadow" style="width: 18rem;">
+              <div class="row pl-4 border-0">
+                <img src="imgs/docimg/github.svg" class="" alt="...">
+                <a href="https://github.hhg.ink/" target="_blank" class="text-reset stretched-link  ml-3">
+                  <h5 class="card-title align-middle" style="display: inline-block;">github博客站点</h5>
+                </a>
+              </div>
+              <div class="card-body pt-2">
+                <p class="card-text">搭建在GitHub的博客</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-2 col-lg-3">
+            <div class="card w-100 hshadow" style="width: 18rem;">
+              <div class="row pl-4 border-0">
+                <img src="imgs/docimg/个人站点.svg" class="" alt="...">
+                <a href="#" class="text-reset stretched-link  ml-3">
+                  <h5 class="card-title align-middle" style="display: inline-block;">站点</h5>
+                </a>
+              </div>
+              <div class="card-body pt-2">
+                <p class="card-text">个人学习制作的网站，将学习的东西写在这个网站。</p>
+              </div>
+            </div>
+          </div>
+          <!-- 
+          <div class="p-2 col-lg-3">
+            <div class="card w-100 hshadow" style="width: 18rem;">
+              <div class="row pl-4 border-0">
+                <img src="imgs/vue.svg" class="" alt="...">
+                <a href="#" class="text-reset stretched-link  ml-3">
+                  <h5 class="card-title align-middle" style="display: inline-block;">Card title</h5>
+                </a>
+              </div>
+              <div class="card-body pt-2">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's
+                  content.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-2 col-lg-3">
+            <div class="card w-100 hshadow" style="width: 18rem;">
+              <div class="row pl-4 border-0">
+                <img src="imgs/vue.svg" class="" alt="...">
+                <a href="#" class="text-reset stretched-link  ml-3">
+                  <h5 class="card-title align-middle" style="display: inline-block;">Card title</h5>
+                </a>
+              </div>
+              <div class="card-body pt-2">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's
+                  content.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-2 col-lg-3">
+            <div class="card w-100 hshadow" style="width: 18rem;">
+              <div class="row pl-4 border-0">
+                <img src="imgs/vue.svg" class="" alt="...">
+                <a href="#" class="text-reset stretched-link  ml-3">
+                  <h5 class="card-title align-middle" style="display: inline-block;">Card title</h5>
+                </a>
+              </div>
+              <div class="card-body pt-2">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's
+                  content.</p>
+              </div>
+            </div>
+          </div> -->
+        </div>
+        <!-- 9 box -->
+        <div class="row border  rounded mt-2 m-0 mb-5 bg-white" id="i">
+          <div class="row w-100 ml-5 mt-3 imgheight">
+            <img src="imgs/书籍.svg" alt="">
+            <a href="#" class="text-reset text-decoration-none">
+              <h3 class="w-100 ">书籍类
+              </h3>
+            </a>
+          </div>
+          <hr class="w-100 ">
+          <div class="p-2 pt-0 col-lg-3">
+            <div class="card w-100 hshadow" style="width: 18rem;">
+              <div class="row pl-4 border-0">
+                <img src="imgs/docimg/html权威指南.jpg" class="" alt="...">
+                <a href="https://book.douban.com/subject/25786074/" class="text-reset stretched-link  ml-3"
+                  target="_blank">
+                  <h5 class="card-title align-middle" style="display: inline-block;">HTML权威指南</h5>
+                </a>
+              </div>
+              <div class="card-body pt-2">
+                <p class="card-text">《HTML5 权威指南》是系统学习网页设计的权威参考图书。</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="p-2 col-lg-3">
+            <div class="card w-100 hshadow" style="width: 18rem;">
+              <div class="row pl-4 border-0">
+                <img src="imgs/docimg/s8958650.jpg" class="" alt="...">
+                <a href="https://book.douban.com/subject/10546125/" target="_blank"
+                  class="text-reset stretched-link  ml-3">
+                  <h5 class="card-title align-middle" style="display: inline-block;">JS高级程序设计指南</h5>
+                </a>
+              </div>
+              <div class="card-body pt-2">
+                <p class="card-text">JS经典书籍</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="p-2 col-lg-3">
+            <div class="card w-100 hshadow" style="width: 18rem;">
+              <div class="row pl-4 border-0">
+                <img src="imgs/vue.svg" class="" alt="...">
+                <a href="#" class="text-reset stretched-link  ml-3">
+                  <h5 class="card-title align-middle" style="display: inline-block;">Card title</h5>
+                </a>
+              </div>
+              <div class="card-body pt-2">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's
+                  content.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-2 col-lg-3">
+            <div class="card w-100 hshadow" style="width: 18rem;">
+              <div class="row pl-4 border-0">
+                <img src="imgs/vue.svg" class="" alt="...">
+                <a href="#" class="text-reset stretched-link  ml-3">
+                  <h5 class="card-title align-middle" style="display: inline-block;">Card title</h5>
+                </a>
+              </div>
+              <div class="card-body pt-2">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's
+                  content.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-2 col-lg-3">
+            <div class="card w-100 hshadow" style="width: 18rem;">
+              <div class="row pl-4 border-0">
+                <img src="imgs/vue.svg" class="" alt="...">
+                <a href="#" class="text-reset stretched-link  ml-3">
+                  <h5 class="card-title align-middle" style="display: inline-block;">Card title</h5>
+                </a>
+              </div>
+              <div class="card-body pt-2">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's
+                  content.</p>
+              </div>
+            </div>
+          </div> -->
+        </div>
+        <div class="pt-5 ">
+          <nav class="navbar fixed-bottom navbar-light bg-light justify-content-center">
+            <a class="navbar-brand"
+              href="https://github.hhg.ink/2021/05/27/%E4%BD%9C%E8%80%85%E6%9C%AC%E4%BA%BA/">关于</a>
+            <a class="navbar-brand" href="#">练习</a>
+            <a class="navbar-brand" href="#">关注</a>
+            <a class="navbar-brand  " href="#">回到顶部</a>
+          </nav>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="resources/jquery-3.6.0.js"></script>
+  <script src="/resources/bootstrap.bundle.js"></script>
+</body>
+
+</html>
